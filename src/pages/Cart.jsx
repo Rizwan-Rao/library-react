@@ -92,7 +92,7 @@ export default function Cart({cart, changeQuantity, removeItem}) {
                         </div>
                         <div className="total__item total__price">
                             <span>Total</span>
-                            <span>${total()}</span>
+                            <span>${total().toFixed(2)}</span>
                         </div>
                         <button className="btn btn__checkout no-cursor"
                         onClick={() => alert(`Haven't got around to doing this :()`)}>
